@@ -75,7 +75,7 @@ function getPasswordOptions() {
 
   return passwordOptions;
 }
-// fuction to randomized an element from an array
+// function to select randomized element from an array
 function getRandom(arr) {
   var randIndex = Math.floor(Math.random() * arr.length);
   var randElement = arr[randIndex];
@@ -83,7 +83,9 @@ function getRandom(arr) {
   return randElement;
 }
   
-  
+// to start and generate a password
+function generatePassword() {
+  var options = getPasswordOptions();  
 
 
 
