@@ -109,7 +109,7 @@ function generatePassword() {
     possibleCharacters = possibleCharacters.concat(lowerCasedCharacters);
     guaranteedCharacters.push(getRandom(lowerCasedCharacters));
   }
-  //adds arr 0f uppercase letters into arr of possible characters based on what user chose
+  //adds arr of uppercase letters into arr of possible characters based on what user chose
   if (options.hasUpperCasedCharacters) {
     possibleCharacters = possibleCharacters.concat(upperCasedCharacters);
     guaranteedCharacters.push(getRandom(upperCasedCharacters));
@@ -121,7 +121,15 @@ function generatePassword() {
     result.push(possibleCharacter);
   }
   
+  // mixed in atleast one of eachguaranteed charecter on the results
+  for (var i = 0; i < guaranteedCharacters.length; i++) {
+    result[i] = guaranteedCharacters[i];
+  }
+
+  return result.join('');
+}
   
+var generateBtn = document.querySelector('#generate');
   
   
   // Assignment Code
