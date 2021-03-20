@@ -86,11 +86,30 @@ function getRandom(arr) {
 // to start and generate a password
 function generatePassword() {
   var options = getPasswordOptions();  
+  
+  var result = [];
 
+  var possibleCharacters = [];
 
+  var guaranteedCharacters = [];
 
+//adds arr of special characters into arr of possible characters based on what user chose
+  if (options.hasSpecialCharacters) {
+    possibleCharacters = possibleCharacters.concat(specialCharacters);
+    guaranteedCharacters.push(getRandom(specialCharacters));
+  }
 
-// Assignment Code
+  //adds arr of numeric characters into arr of possible characters based on what user chose
+  if (options.hasNumericCharacters) {
+    possibleCharacters = possibleCharacters.concat(numericCharacters);
+    guaranteedCharacters.push(getRandom(numericCharacters));
+  }
+  
+  
+  
+  
+  
+  // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
