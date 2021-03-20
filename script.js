@@ -45,6 +45,15 @@ function getPasswordOptions() {
     'Click OK to confirm including numeric characters.'
   );
   
+  // make sure include lowercase letters
+  var hasLowerCasedCharacters = confirm(
+    'Click OK to confirm including lowercase characters.'
+  );
+  
+  // make sure to include uppercase letters
+  var hasUpperCasedCharacters = confirm(
+    'Click OK to confirm including uppercase characters.'
+  );
   
   // Assignment Code
 var generateBtn = document.querySelector("#generate");
