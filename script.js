@@ -54,6 +54,28 @@ function getPasswordOptions() {
   var hasUpperCasedCharacters = confirm(
     'Click OK to confirm including uppercase characters.'
   );
+  // statement returning false if user did not include one of the characters
+  if (
+    hasSpecialCharacters === false &&
+    hasNumericCharacters === false &&
+    hasLowerCasedCharacters === false &&
+    hasUpperCasedCharacters === false
+  ) {
+    alert('Must select at least one character type');
+    return;
+  }
+  
+  var passwordOptions = {
+    length: length,
+    hasSpecialCharacters: hasSpecialCharacters,
+    hasNumericCharacters: hasNumericCharacters,
+    hasLowerCasedCharacters: hasLowerCasedCharacters,
+    hasUpperCasedCharacters: hasUpperCasedCharacters
+  };
+
+  return passwordOptions;
+}
+  
   
   // Assignment Code
 var generateBtn = document.querySelector("#generate");
