@@ -115,6 +115,14 @@ function generatePassword() {
     guaranteedCharacters.push(getRandom(upperCasedCharacters));
   }
   
+  for (var i = 0; i < options.length; i++) {
+    var possibleCharacter = getRandom(possibleCharacters);
+
+    result.push(possibleCharacter);
+  }
+  
+  
+  
   
   // Assignment Code
 var generateBtn = document.querySelector("#generate");
