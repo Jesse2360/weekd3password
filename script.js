@@ -30,9 +30,22 @@ function getPasswordOptions() {
     return;
   }
 
+  // make sure the length not to go over 128 characters
+  if (length > 128) {
+    alert('Password length must less than 129 characters');
+    return;
+  }
 
-
-
+  // make sure include special characters
+  var hasSpecialCharacters = confirm(
+    'Click OK to confirm including special characters.'
+  );
+  // make sure include nubers
+  var hasNumericCharacters = confirm(
+    'Click OK to confirm including numeric characters.'
+  );
+  
+  
   // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
