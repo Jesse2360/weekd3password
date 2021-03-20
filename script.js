@@ -75,9 +75,20 @@ function getPasswordOptions() {
 
   return passwordOptions;
 }
+// fuction to randomized an element from an array
+function getRandom(arr) {
+  var randIndex = Math.floor(Math.random() * arr.length);
+  var randElement = arr[randIndex];
+
+  return randElement;
+}
   
   
-  // Assignment Code
+
+
+
+
+// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
