@@ -1,4 +1,26 @@
-// Assignment Code
+//Am creating array of special character for the password
+var specialCharacters = [  '@','%','+', '\\',"'",'!','#','$','^','?',':',',',')','(','}','{',']','[','~','-','_','.'];
+
+// added arr of # for password
+var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+
+//added arr of lowercase letters
+var lowerCasedCharacters = ['a', 'b', 'c', 'd', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
+ 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+
+ // added arr of uppercase letters
+var upperCasedCharacters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
+'Q', 'R', 'S', 'T', 'U', 'W', 'X', 'Y', 'Z'];
+
+
+
+
+
+
+
+
+
+  // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
