@@ -14,4 +14,4 @@ Built with
 
 ![photo](https://github.com/Jesse2360/weekd3password/blob/ed38367316a0939f838808113a311c1524c1b69d/images/screenshotpassword.png)
 
-[posted-html] (https://jesse2360.github.io/weekd3password/)
+[posted-html](https://jesse2360.github.io/weekd3password/)
