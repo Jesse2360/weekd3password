@@ -19,8 +19,8 @@ The user wanted me to create a password generator to obtain a randomized passwor
 ・GitHub
 
 ## Installation
-* First, forked the repo.
-* Second, clone repo to your local computer.
+* First, fork the repo.
+* Second, clone the repo to your local computer.
 
 ## View it Here
 
