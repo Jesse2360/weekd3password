@@ -19,6 +19,7 @@ The user wanted me to create a password generator to obtain a randomized passwor
 ・GitHub
 
 ## Installation
+If you want to edit and make it your own: <br>
 * First, fork the repo.
 * Second, clone the repo to your local computer.
 
