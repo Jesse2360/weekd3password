@@ -1,17 +1,20 @@
-# weekd3password
-week 3 hw password
+# Password Generator
 
 The user wanted me to create a password generator to obtain a randomized password every time for security purposes.
 
-Created this page using:
-・html
-・css
-・javascript
+## Created this page using: <br>
 
-Built with
-・VS Code
+・html <br>
+・css <br>
+・javascript <br>
+
+## Built with  <br>
+
+・VS Code <br>
 ・GitHub
 
-![photo](https://github.com/Jesse2360/weekd3password/blob/ed38367316a0939f838808113a311c1524c1b69d/images/screenshotpassword.png)
+## View it Here
 
-[posted-html](https://jesse2360.github.io/weekd3password/)
+[Link to Site](https://jesse2360.github.io/weekd3password/)
+
+![photo](https://github.com/Jesse2360/weekd3password/blob/ed38367316a0939f838808113a311c1524c1b69d/images/screenshotpassword.png)
