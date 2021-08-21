@@ -5,6 +5,7 @@ The user wanted me to create a password generator to obtain a randomized passwor
 ## Table of Contents
   - [View-it-Here](#View-it-Here)
   - [ScreenShot](#Screenshot)
+  - [Installation](#Installation)
 
 ## Created this page using: <br>
 
@@ -17,9 +18,13 @@ The user wanted me to create a password generator to obtain a randomized passwor
 ・VS Code <br>
 ・GitHub
 
+## Installation
+* First, forked the repo.
+* Second, clone repo to your local computer.
+
 ## View it Here
 
-[Link](https://jesse2360.github.io/weekd3password/)
+[Link to Site](https://jesse2360.github.io/weekd3password/)
 
 ## ScreenShot
 
